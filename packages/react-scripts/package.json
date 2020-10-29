@@ -1,5 +1,5 @@
 {
-  "name": "react-scripts-changed",
+  "name": "react-scripts-oss",
   "version": "4.0.0",
   "description": "Configuration and scripts for Create React App.",
   "repository": {
@@ -24,7 +24,7 @@
     "utils"
   ],
   "bin": {
-    "react-scripts-changed": "./bin/react-scripts.js"
+    "react-scripts-oss": "./bin/react-scripts.js"
   },
   "types": "./lib/react-app.d.ts",
   "dependencies": {
