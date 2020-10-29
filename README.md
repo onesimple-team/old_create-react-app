@@ -14,7 +14,7 @@ Add to package.json:
     ...
     "web": "react-scripts-os start",
     "web:build": "react-scripts-os build",
-  },
+}
 ```
 #### Changes
 1. Enabled to set up babel from configuration files.
