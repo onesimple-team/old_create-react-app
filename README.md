@@ -5,15 +5,15 @@
 ### react-scripts package
 #### Installation
 ```
-yarn add react-scripts-os
+yarn add react-scripts-changed
 ```
 #### Using
 Add to package.json:
 ```
 "scripts": {
     ...
-    "web": "react-scripts-os start",
-    "web:build": "react-scripts-os build",
+    "web": "react-scripts-changed start",
+    "web:build": "react-scripts-changed build",
 }
 ```
 #### Changes
