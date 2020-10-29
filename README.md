@@ -1,7 +1,22 @@
 # Create React App (Custom)
 
 ## This is a modified version
+
 ### react-scripts package
+#### Installation
+```
+yarn add react-scripts-os
+```
+#### Using
+Add to package.json:
+```
+"scripts": {
+    ...
+    "web": "react-scripts-os start",
+    "web:build": "react-scripts-os build",
+  },
+```
+#### Changes
 1. Enabled to set up babel from configuration files.
 2. Moved shared and built folder from root to web folder.
 ```javascript
