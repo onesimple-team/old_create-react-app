@@ -415,8 +415,12 @@ module.exports = function (webpackEnv) {
                   ],
                 ],
                 // @remove-on-eject-begin
+
+                // #### CUSTOM START ####
                 babelrc: false,
                 configFile: false,
+                // #### CUSTOM END ####
+
                 // Make sure we have a unique cache identifier, erring on the
                 // side of caution.
                 // We remove this when the user ejects because the default
@@ -466,8 +470,12 @@ module.exports = function (webpackEnv) {
               exclude: /@babel(?:\/|\\{1,2})runtime/,
               loader: require.resolve('babel-loader'),
               options: {
-                babelrc: false,
-                configFile: false,
+
+                // #### CUSTOM START ####
+                // babelrc: false,
+                // configFile: false,
+                // #### CUSTOM END ####
+
                 compact: false,
                 presets: [
                   [
