@@ -417,8 +417,8 @@ module.exports = function (webpackEnv) {
                 // @remove-on-eject-begin
 
                 // #### CUSTOM START ####
-                babelrc: false,
-                configFile: false,
+                // babelrc: false,
+                // configFile: false,
                 // #### CUSTOM END ####
 
                 // Make sure we have a unique cache identifier, erring on the
