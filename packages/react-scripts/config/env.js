@@ -108,6 +108,11 @@ function getClientEnvironment(publicUrl) {
     }, {}),
   };
 
+  // #### CUSTOM START ####
+  // Backwards compatibility with native platforms.
+  stringified.__DEV__ = process.env.NODE_ENV === 'production' || true
+  // #### CUSTOM END ####
+
   return { raw, stringified };
 }
 
